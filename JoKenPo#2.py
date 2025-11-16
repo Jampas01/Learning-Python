@@ -19,19 +19,22 @@ def jogar(escolha_jogador):
 
     label_resultado.config(text=f"Você escolheu: {escolha_jogador}\nComputador: {escolha_pc}\n{resultado}")
 
-# 🟦 Janela
 janela = tk.Tk()
 janela.title("JO JEN PO")
 janela.geometry("200x200")
 
-# 🟩 Botões
 tk.Button(janela, text="Pedra", width=20, command=lambda: jogar("pedra")).pack(pady=10)
 tk.Button(janela, text="Papel", width=20, command=lambda: jogar("papel")).pack(pady=10)
 tk.Button(janela, text="tesoura", width=20, command=lambda: jogar("tesoura")).pack(pady=10)
 
+<<<<<<< HEAD
 # 🟥 Resultado
 label_resultado = tk.Label(janela, text="", font=("Arial", 7))
 label_resultado.pack(pady=10)
+=======
+label_resultado = tk.Label(janela, text="", font=("Arial", 12))
+label_resultado.pack(pady=20)
+>>>>>>> b0c5d50c8e05e76fee3c149c1564cf2bf21fa551
 
 janela.mainloop()
 
