@@ -22,7 +22,7 @@ def jogar(escolha_jogador):
 # 🟦 Janela
 janela = tk.Tk()
 janela.title("JO JEN PO")
-janela.geometry("200x150")
+janela.geometry("200x200")
 
 # 🟩 Botões
 tk.Button(janela, text="Pedra", width=20, command=lambda: jogar("pedra")).pack(pady=10)
@@ -30,8 +30,8 @@ tk.Button(janela, text="Papel", width=20, command=lambda: jogar("papel")).pack(p
 tk.Button(janela, text="tesoura", width=20, command=lambda: jogar("tesoura")).pack(pady=10)
 
 # 🟥 Resultado
-label_resultado = tk.Label(janela, text="", font=("Arial", 12))
-label_resultado.pack(pady=20)
+label_resultado = tk.Label(janela, text="", font=("Arial", 7))
+label_resultado.pack(pady=10)
 
 janela.mainloop()
 
