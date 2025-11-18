@@ -23,5 +23,6 @@ if s1 < s2 + s3 and s2 < s1 + s3 and s3 < s1 + s2:
         print('O tipo de triângulo formado é: ESCALENO!')
     else:
         print('O tipo de triângulo formado é: ISÓSCELES!')
+#Diz que NÃO PODE FORMAR triângulo
 else:
     print('Os segmentos {}, {} e {} NÃO PODEM FORMAR um triângulo!'.format(s1, s2, s3))
