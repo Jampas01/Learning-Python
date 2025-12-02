@@ -35,3 +35,4 @@ while n != 0:
         else:
             impar += 1
 print('Você digitou {} números pares e {} números impares'.format(par, impar))
+
