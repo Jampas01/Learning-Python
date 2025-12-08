@@ -20,7 +20,7 @@ def jogar(escolha_jogador):
     label_resultado.config(text=f"Você escolheu: {escolha_jogador}\nComputador: {escolha_pc}\n{resultado}")
 
 janela = tk.Tk()
-janela.title("JO JEN PO")
+janela.title("JO KEN PO")
 janela.geometry("200x200")
 
 tk.Button(janela, text="Pedra", width=20, command=lambda: jogar("pedra")).pack(pady=10)
