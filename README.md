@@ -1,17 +1,26 @@
-# Projeto Python3 -- Mundo 1
+# Learning Python 🐍
 
-Este repositório contém os exercícios, projetos e anotações referentes
-ao curso **Python 3 -- Mundo 1** da Curso em Vídeo.\
-O objetivo é complementar o aprendizado: registrar meu progresso,
-estruturar o código e facilitar revisões futuras.
+This repository contains exercises and study materials from my Python learning journey,
+based on the Curso em Vídeo – Python Mundo 1 & 2 courses.
 
-## 🧭 Sobre o Curso
+## 📌 About
+I am currently studying Systems Analysis and Development (ADS) and building a solid
+foundation in programming logic and Python fundamentals while transitioning into the
+technology field.
 
--   Nome: *Python 3 -- Mundo 1*
--   Instituição: Curso em Vídeo
--   Carga horária estimada: 40 h
--   Ideal para iniciantes, sem necessidade de conhecimento prévio em
-    programação.
--   Conteúdo progressivo: do básico até tipos de dados, operadores,
-    módulos, manipulação de textos e condições.
--   Gratuito para acesso às aulas; certificado mediante pagamento.
+## 📚 Topics covered
+- Variables and data types  
+- Conditional statements  
+- Loops  
+- Basic functions  
+- Programming logic  
+
+## 📂 Repository structure
+The folders are organized according to the course modules:
+- Mundo1 – Python fundamentals
+- Mundo2 – Intermediate logic concepts
+
+## 🎯 Purpose
+This repository is used to track my learning progress, organize exercises,
+and continuously improve my problem-solving skills with Python.
+
