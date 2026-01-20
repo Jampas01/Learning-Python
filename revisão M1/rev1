@@ -47,6 +47,3 @@ for n in range (1, 51):
         contp += 1
         print(n)
 print('entre 1 e 50, temos {} números pares'.format(contp))'''
-
-
-#
