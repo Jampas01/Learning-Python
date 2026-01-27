@@ -1,3 +1,5 @@
+import datetime
+
 print('-=' * 25)
 print('GERADOR DE CURRÍCULUM')
 print('-=' * 25)
@@ -8,6 +10,6 @@ while r == 'S':
     nome = str(input('Digite seu nome: '))
     idade = int(input('Digite sua idade: '))
     datanasc = int(input('Digite sua data de nascimento: '))
-    
+    curso = input('Quais cursos ja concluiu?')
 
       
